@@ -1,0 +1,9 @@
+#  2 #
+def circle(r): #logic
+    area=3.142*r**2
+    return area
+
+def call(): #function call
+    x=circle(5)
+    print(x)
+call()

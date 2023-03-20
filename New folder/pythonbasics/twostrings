@@ -1,0 +1,58 @@
+# def strings(m,n):
+#     if n in m:
+#         count = 0
+#         for i in range(0,len(m)):
+#             if m[i]==n:
+#                 count=count+1
+#             return count
+#     else:
+#         return -1
+
+# def call():
+#     m=input("Enter string1:")
+#     n=input('Enter letter to search:')
+#     result=search(m,n)
+#     print(result)
+# call()
+
+
+def get_input():
+    string = input("Enter a string: ")
+    return string
+
+def search_words(string, search_word):
+    words = string.split()
+    if search_word in words:
+        return True
+    else:
+        return False
+string = get_input()
+search_word = input("Enter a word to search for: ")
+if search_words(string, search_word):
+    print(f"The word '{search_word}' was found in the string.")
+else:
+    print(f"The word '{search_word}' was not found in the string.")
+
+
+
+
+
+# ----------------------#
+
+
+# Count Number of words#
+
+# def count_words(sentence):
+#     words = sentence.split()
+#     return len(words)
+
+# def callingfun():
+#     sentence = input("Enter a sentence: ")
+#     result = count_words(sentence)
+#     print("The number of words in the sentence is:", result)
+
+# callingfun()
+# ------------------------#
+
+
+

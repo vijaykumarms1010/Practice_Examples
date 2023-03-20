@@ -1,0 +1,8 @@
+def logic1(x):
+    
+    return 
+def call():
+    x=input("Enter the string:")
+    y=len(x)
+    print("Number of words in string:",y)
+call()
